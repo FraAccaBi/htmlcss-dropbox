@@ -60,3 +60,29 @@ header{
     height: 281px;
     background-color: red;
 }
+/*Hero page*/
+
+.sm_container{
+    margin: 0 auto;
+    width: 675px;
+}
+.sm_container h2{
+    padding-top: 81px;
+    padding-bottom: 38px;
+    font-size: 25px;
+    float: left;
+    width: 100%;
+}
+.cl_33{
+    float: left;
+    width: 33.33%;
+    height: 647px;
+    background-color: red;
+}
+.cl_100{
+    float: left;
+    width: 100%;
+    height: 157px;
+    background-color: red;
+    margin-top: 12px ;
+}
