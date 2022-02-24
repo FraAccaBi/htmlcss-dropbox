@@ -104,4 +104,76 @@ header{
 }
 /*Partner page*/
 
+.cl_30{
+    float: left;
+    width: 30%;
+    background-color: rgb(0, 255, 234);
+}
+.collage_dim{
+    height: 286px;
+    
+}
+#collage_h{
+    margin-top: 115px;
+}
+.collage_text{
+    padding-bottom: 19px;
+}
+.cl_50_sm{
+    height: 143px;
+    float: left;
+    width: 50%;
+    background-color: rgb(4, 0, 255);
+}
+.designit{
+    background-color: #A2D39B ;
+}
+.asu {
+    background-color: #61082B;
+}
+.florida {
+    background-color: #0093CE;
+}
+.topps {
+    background-color: #FF1C1C;
+}
+.bicicle {
+    background-color: #D5001F;
+}
+.hearts {
+    background-color: #B4D0E7;
+}
+.lp {
+    background-color: #0D2481;
+}
+.clear {
+    background-color: #FFD830;
+}
+.trial{
+    background-color: #B4D0E7;
+    margin-top: 0;
+    height: 212px;
+}
+/*companies page*/
+
+footer{
+    background-color: black;
+}
+.footer_container{
+    margin: 0 auto;
+    width: 765px;
+    height: 294px;
+}
+.cl_20{
+    float: left;
+    width: 20%;
+    background-color: rgba(179, 255, 0, 0.664);
+    height: 121px;
+    margin-top: 61px;
+}
+.language{
+    margin-top: 75px;
+    height: 20px;
+}
+/*Footer*/
 
