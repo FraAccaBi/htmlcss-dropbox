@@ -86,3 +86,22 @@ header{
     background-color: red;
     margin-top: 12px ;
 }
+/*Subscription page*/
+
+.cl_40{
+    float: left;
+    width: 40%;
+    background-color: red;
+}
+.cl_60{
+    float: left;
+    width: 60%;
+    background-color: red;
+}
+.partner_dim{
+    height: 370px ;
+    margin-top: 54px;
+}
+/*Partner page*/
+
+
