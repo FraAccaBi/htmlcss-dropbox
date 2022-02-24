@@ -37,6 +37,8 @@ header{
 .blue_btn{
     color: white;
     background-color: #0061FF;
+    padding: 3px;
+    margin-right: 20px;
 }
 .align_left{
     position: relative;
