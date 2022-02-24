@@ -15,10 +15,7 @@
     display: table;
     clear: both;
 }
-.hero_container{
-    width: 765px;
-    height: 476px;
-}
+
 
 /*utilities*/
 header{
@@ -30,5 +27,36 @@ header{
     float: left;
     width: 50%;
     height: 48px;
+    background-color: red;
+}
+/**Header**/
+
+.hero{
+    height: 434px;
+    background-color: var(--light-bg-color);
+
+}
+.hero_container{
+    margin: 0 auto;
+    width: 765px;
+    height: 476px;
+}
+.hero_container h1{
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-size: 43px;
+    float: left;
+    width: 100%;
+}
+.cl_40{
+    float: left;
+    width: 40%;
+    height: 192px;
+    background-color: red;
+}
+.cl_60{
+    float: left;
+    width: 60%;
+    height: 281px;
     background-color: red;
 }
