@@ -16,9 +16,13 @@
     display: table;
     clear: both;
 }
+a{
+    text-decoration: none;
+}
+/******
+General
+******/
 
-
-/*utilities*/
 header{
     margin: 0 auto;
     height: 48px;
@@ -57,10 +61,10 @@ header{
     top: 3px;
     left: 20px;
 }
-.cl_50 a{
-    text-decoration: none;
-}
-/**Header**/
+
+/*****
+Header
+*****/
 
 .hero{
     height: 434px;
@@ -78,20 +82,35 @@ header{
     font-size: 43px;
     float: left;
     width: 100%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cl_40{
     float: left;
     width: 40%;
     height: 192px;
-    background-color: red;
 }
 .cl_60{
     float: left;
     width: 60%;
     height: 281px;
-    background-color: red;
 }
-/*Hero page*/
+.hero_img{
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+}
+.hero_blue_btn{
+    color: white;
+    background-color: #0061FF;
+    padding: 3px;
+}
+.hero_container p{
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+/********
+Hero page
+********/
 
 .sm_container{
     margin: 0 auto;
@@ -122,12 +141,10 @@ header{
 .cl_40{
     float: left;
     width: 40%;
-    background-color: red;
 }
 .cl_60{
     float: left;
     width: 60%;
-    background-color: red;
 }
 .partner_dim{
     height: 370px ;
