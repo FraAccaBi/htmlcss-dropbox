@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Darker Grotesque', sans-serif;;
 }
 :root{
     --btn-color: #0061FF;
@@ -21,13 +22,41 @@
 header{
     margin: 0 auto;
     height: 48px;
-    background-color: #0061FF;
+    background-color: white;
 }
 .cl_50{
     float: left;
     width: 50%;
     height: 48px;
-    background-color: red;
+}
+.header_btn{
+    list-style: none;
+    color: black;
+    padding:14px;
+}
+.blue_btn{
+    color: white;
+    background-color: #0061FF;
+}
+.align_left{
+    position: relative;
+}
+.align_right{
+    text-align: right;
+    padding-top: 13px;
+}
+.logo_sm{
+    position: relative;
+    top: 10px;
+    left: 6px;
+}
+.btn_left{
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+.cl_50 a{
+    text-decoration: none;
 }
 /**Header**/
 
@@ -185,6 +214,7 @@ header{
     background-color: #B4D0E7;
     margin-top: 0;
     height: 212px;
+    color:#61082B;
 }
 /*companies page*/
 
