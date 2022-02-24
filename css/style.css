@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --btn-color: #0061FF;
+    --text-color: #1F1F1F;
+    --light-text-color: #ADB6BD;
+    --light-bg-color: #B4D0E7;
+    --main-bg-color: #FFFFFF;
+}
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.hero_container{
+    width: 765px;
+    height: 476px;
+}
