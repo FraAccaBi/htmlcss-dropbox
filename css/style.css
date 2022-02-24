@@ -19,3 +19,16 @@
     width: 765px;
     height: 476px;
 }
+
+/*utilities*/
+header{
+    margin: 0 auto;
+    height: 48px;
+    background-color: #0061FF;
+}
+.cl_50{
+    float: left;
+    width: 50%;
+    height: 48px;
+    background-color: red;
+}
