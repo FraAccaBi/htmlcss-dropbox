@@ -387,10 +387,32 @@ Multitasking page
 .collage{
     margin-top: 2rem;
 }
-
 /******************
 companies page
 *******************/
+
+.faq{
+    height: 481px;
+}
+.faq>p{
+    padding: 1rem 0;
+    font-weight: 900;
+    position: relative;
+}
+.faq>p>span{
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+/**********
+Faq page
+**********/
 
 footer{
     background-color: black;
