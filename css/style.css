@@ -127,13 +127,14 @@ Hero page
     float: left;
     width: 33.33%;
     height: 647px;
+    
 }
 .cl_100{
     float: left;
     width: 100%;
     height: 157px;
-    background-color: red;
     margin-top: 12px ;
+    position: relative;
 }
 li > span{
     color: var(--btn-color);
@@ -149,6 +150,7 @@ ul{
     margin: 0.1rem;
     line-height: 25px;
     font-size: small;
+    margin-top: 12px ;
 }
 .sm{
     height: 40px;
@@ -158,13 +160,13 @@ ul{
     font-size: medium;
     margin-bottom: 2px;
 }
-.sub_text, .sm {
-    border: 2px solid grey;
+.sub_text, .sm, .cl_100{
+    border: 2px solid #E7E7E9;
 }
 .sub_text>a{
     background-color: var(--btn-color);
     color: white;
-    padding: 0.2rem;
+    padding: 0.4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -192,8 +194,41 @@ ul{
 .function>i{
     font-size: 10px;
 }
-/*Subscription page*/
-
+.contact_btn{
+    background-color: var(--btn-color);
+    color: white;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+.cl_100_text{
+    padding: 1.5rem;
+}
+.subscription>.sm_container>.cl_100,.sm{
+    margin-bottom: -13px;
+}
+.cl_100_text>p{
+    font-size: medium;
+    margin-bottom: 2px;
+}
+.cl_100_text>h3{
+    font-weight: 900;
+    font-size: x-large;
+}
+.cl_100_text>h4{
+    font-size: medium;
+    margin-top: 1rem;
+}
+/****************
+Subscription page
+****************/
+.partner{
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
 .cl_40{
     float: left;
     width: 40%;
