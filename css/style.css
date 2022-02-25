@@ -141,6 +141,57 @@ li > span{
 ul{
     list-style: none;
 }
+.sub_text{
+    float: left;
+    width: 32.86%;
+    height: 640px;
+    padding: 0.7rem;
+    margin: 0.1rem;
+    line-height: 25px;
+    font-size: small;
+}
+.sm{
+    height: 40px;
+    text-align: center;
+}
+.sm>p{
+    font-size: medium;
+    margin-bottom: 2px;
+}
+.sub_text, .sm {
+    border: 2px solid grey;
+}
+.sub_text>a{
+    background-color: var(--btn-color);
+    color: white;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sub_text>p>a{
+    text-decoration: underline;
+    color: var(--btn-color);
+}
+.sub_text>h3{
+    font-weight: 900;
+    font-size: x-large;
+    padding-bottom: 1rem;
+}
+.sub_text>h4{
+    font-size: medium;
+    margin-top: 2rem;
+}
+.function{
+    padding-bottom: 1rem;
+    line-height: initial;
+    padding-top: 1.5rem;
+}
+#or{
+    padding-top: 1rem;
+}
+.function>i{
+    font-size: 10px;
+}
 /*Subscription page*/
 
 .cl_40{
