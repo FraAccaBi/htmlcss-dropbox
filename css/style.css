@@ -42,7 +42,7 @@ header{
 .blue_btn{
     color: white;
     background-color: #0061FF;
-    padding: 3px;
+    padding: 3px 10px;
     margin-right: 20px;
 }
 .align_left{
@@ -62,7 +62,12 @@ header{
     top: 3px;
     left: 20px;
 }
-
+.cl_quantity{
+    margin-top: -7px;
+}
+.cl_quantity_100{
+    margin-top: 7px;
+}
 /*****
 Header
 *****/
@@ -244,6 +249,7 @@ Subscription page
 }
 .partner_dim > img{
     max-width: 100%;
+    padding-top: 3.5rem;
 }
 .partner_dim p{
     padding-bottom: 1rem;
@@ -385,7 +391,7 @@ Multitasking page
     text-decoration: underline;
 }
 .collage{
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 /******************
 companies page
@@ -403,13 +409,6 @@ companies page
     position: absolute;
     right: 0;
 }
-
-
-
-
-
-
-
 /**********
 Faq page
 **********/
@@ -425,13 +424,26 @@ footer{
 .cl_20{
     float: left;
     width: 20%;
-    background-color: rgba(179, 255, 0, 0.664);
     height: 121px;
     margin-top: 61px;
+    color: white;
+}
+.cl_20>ul>li{
+    font-size: 15px;
+    font-weight: 100;
 }
 .language{
-    margin-top: 75px;
     height: 20px;
+    margin-top: 75px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.548);
+}
+.cl_20>h3{
+    margin-bottom: 0.7rem;
+    font-size: 20px;
+}
+.language>i{
+    font-size: 8px;
 }
 /*Footer*/
 
