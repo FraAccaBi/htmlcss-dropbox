@@ -128,7 +128,6 @@ Hero page
     float: left;
     width: 33.33%;
     height: 647px;
-    background-color: red;
 }
 .cl_100{
     float: left;
@@ -136,6 +135,12 @@ Hero page
     height: 157px;
     background-color: red;
     margin-top: 12px ;
+}
+li > span{
+    color: var(--btn-color);
+} 
+ul{
+    list-style: none;
 }
 /*Subscription page*/
 
