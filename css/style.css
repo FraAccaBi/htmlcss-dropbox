@@ -517,15 +517,14 @@ companies page
 
 .faq{
     position: relative;
-}
-.faq{
     height: 600px;
 }
-.faq>p{    
+.faq>a{    
     padding: 1.5rem 0;
     font-weight: 900;
+    display: block;
 }
-.faq>p>span{
+.faq>a>span{
     position: absolute;
     right: 0;
 }
@@ -544,6 +543,22 @@ companies page
 }
 .faq>h2{
     padding: 5.5rem 0;    
+}
+.dropdown_faq{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.dropdown_content_faq{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown_faq:hover .dropdown_content_faq {
+   display: block;
 }
 /**********
 Faq page
@@ -582,6 +597,7 @@ footer{
     border: transparent;
     margin: 6px 0
 }
+
 /*Footer*/
 
 
