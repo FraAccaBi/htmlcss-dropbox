@@ -25,6 +25,9 @@ input{
     width: 0.7rem;
     vertical-align: -1px;
 }
+html{
+    scroll-behavior: smooth;
+}
 /******
 General
 ******/
@@ -215,6 +218,9 @@ Header
 .hero_container p{
     padding-bottom: 1rem;
     padding-top: 0.5rem;
+}
+.go_to:active{
+    color:red;
 }
 /********
 Hero page
