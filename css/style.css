@@ -20,20 +20,128 @@ a{
     text-decoration: none;
     color: black;
 }
+input{
+    height: 0.7rem;
+    width: 0.7rem;
+    vertical-align: -1px;
+}
 /******
 General
 ******/
+.cl_5{
+    float: left;
+    width: 5%
+}
+.cl_10{
+    float: left;
+    width: 10%;
+    margin-top: 75px;
+    color: white;
+}
+.cl_20{
+    float: left;
+    width: 20%;
+    height: 121px;
+    margin-top: 61px;
+    color: white;
+}
+.cl_30{
+    float: left;
+    width: 30%;
+}
+.cl_33{
+    float: left;
+    width: 33.33%;
+    height: 647px;   
+}
+.cl_40{
+    float: left;
+    width: 40%;
+    height: 192px;
+    line-height: 30px;
+    font-size: large;
+}
+.cl_50{
+    float: left;
+    width: 50%;
+    height: 48px;
+}
+.cl_50_sm{
+    height: 143px;
+    float: left;
+    width: 50%;
+    background-color: rgb(4, 0, 255);
+}
+.cl_60{
+    float: left;
+    width: 60%;
+    height: 281px;
+}
+.cl_95{
+    float:left;
+    width: 95%;
+    display: block; 
+    margin-right: -5px; 
+}
+.cl_100{
+    float: left;
+    width: 100%;
+    height: 157px;
+    margin-top: 12px ;
+    position: relative;
+}
+/******
+Columns
+******/
+
+.fa-user:before {
+    content: "\f007";
+    vertical-align: -7px;
+}
+.fa-folder:before {
+    content: "\f07b";
+    vertical-align: -7px;
+}
+.fa-pen:before {
+    content: "\f304";
+    vertical-align: -7px;
+}
+.world::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0ac";
+    color: #EAEAEB;
+    font-size: 9px;
+}
+.down_triangle::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0d8";
+    color: #EAEAEB;
+    font-size: 9px
+}
+.fa-check:before {
+    color: var(--btn-color);
+    content: "\f00c";
+    font-size: smaller;
+    vertical-align: -7px;
+}
+/*Font awesome utilities*/
+
+.btn_p3px{
+    padding: 3px;
+}
+.btn_p3px:hover{
+    text-decoration: underline;
+    filter: sepia(1);
+}
+/*Utilities*/
 
 header{
     margin: 0 auto;
     height: 3.5rem;
     background-color: white;
     padding: 5px 0;
-}
-.cl_50{
-    float: left;
-    width: 50%;
-    height: 48px;
 }
 .header_btn{
     list-style: none;
@@ -92,32 +200,17 @@ Header
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
-.cl_40{
-    float: left;
-    width: 40%;
-    height: 192px;
-    line-height: 30px;
-    font-size: large;
-}
-}
-.cl_60{
-    float: left;
-    width: 60%;
-    height: 281px;
-}
 .hero_img{
     position: relative;
 }
 .hero_img>img{
     max-width: 100%;
     position: absolute;
-    bottom: -354px;
     right: 0;
 }
 .hero_blue_btn{
     color: white;
     background-color: #0061FF;
-    padding: 3px;
 }
 .hero_container p{
     padding-bottom: 1rem;
@@ -142,19 +235,6 @@ Hero page
     width: 100%;
     font-weight: 900;
 }
-.cl_33{
-    float: left;
-    width: 33.33%;
-    height: 647px;
-    
-}
-.cl_100{
-    float: left;
-    width: 100%;
-    height: 157px;
-    margin-top: 12px ;
-    position: relative;
-}
 li > span{
     color: var(--btn-color);
 } 
@@ -165,7 +245,7 @@ ul{
     float: left;
     width: 32.86%;
     height: 640px;
-    padding: 0.7rem;
+    padding: 1rem;
     margin: 0.1rem;
     line-height: 25px;
     font-size: small;
@@ -185,7 +265,6 @@ ul{
 .sub_text>a{
     background-color: var(--btn-color);
     color: white;
-    padding: 0.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -219,7 +298,6 @@ ul{
 .contact_btn{
     background-color: var(--btn-color);
     color: white;
-    padding: 0.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     position: absolute;
@@ -244,6 +322,9 @@ ul{
     font-size: medium;
     margin-top: 1rem;
 }
+
+
+
 /****************
 Subscription page
 ****************/
@@ -256,10 +337,6 @@ Subscription page
     width: 40%;
     line-height: 30px;
     font-size: large;
-}
-.cl_60{
-    float: left;
-    width: 60%;
 }
 .partner_dim{
     height: 370px ;
@@ -279,7 +356,6 @@ Subscription page
 .partner_btn{
     color:black;
     background-color: #ffffff;
-    padding: 3px;
     border: 1px solid black;
 }
 /***********
@@ -305,10 +381,6 @@ Partner page
 Multitasking page
 *****************/
 
-.cl_30{
-    float: left;
-    width: 30%;
-}
 .collage_dim{
     height: 286px;
     
@@ -319,12 +391,7 @@ Multitasking page
 .collage_text{
     padding-bottom: 19px;
 }
-.cl_50_sm{
-    height: 143px;
-    float: left;
-    width: 50%;
-    background-color: rgb(4, 0, 255);
-}
+
 .designit{
     background-color: #A2D39B ;
     background-image: url("../img/designit.svg");
@@ -459,23 +526,9 @@ footer{
     width: 1000px;
     height: 294px;
 }
-.cl_20{
-    float: left;
-    width: 20%;
-    height: 121px;
-    margin-top: 61px;
-    color: white;
-}
 .cl_20>ul>li{
     font-size: 15px;
     font-weight: 100;
-}
-.cl_15{
-    float: left;
-    width: 15%;
-    height: 121px;
-    margin-top: 61px;
-    color: white;
 }
 .language{
     height: 20px;
@@ -491,12 +544,6 @@ footer{
     font-size: 8px;
     padding-top: 1rem;
 }
-.cl_10{
-    float: left;
-    width: 10%;
-    margin-top: 75px;
-    color: white;
-}
 .cl_10>hr{
     height: 1px;
     background-color: #EAEAEB;
@@ -504,4 +551,6 @@ footer{
     margin: 6px 0
 }
 /*Footer*/
+
+
 
