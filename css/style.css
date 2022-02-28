@@ -138,6 +138,9 @@ Columns
     text-decoration: underline;
     filter: sepia(1);
 }
+.go_to:active{
+    color:red;
+}
 /*Utilities*/
 
 header{
@@ -145,6 +148,32 @@ header{
     height: 3.5rem;
     background-color: white;
     padding: 5px 0;
+}
+.align_left{
+    position: relative;
+    padding-left: 7px;
+    margin-top: -4px;
+}
+
+.logo_sm{
+    position: relative;
+    top: 10px;
+    left: 6px;
+}
+.btn_left{
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+.align_right{
+    text-align: right;
+    padding-top: 13px;
+    position: relative;
+}
+.btn_right{
+    position: relative;
+    top: -13px;
+    right: 20px;
 }
 .header_btn{
     list-style: none;
@@ -157,30 +186,29 @@ header{
     padding: 3px 10px;
     margin-right: 20px;
 }
-.align_left{
-    position: relative;
-    padding-left: 7px;
-}
-.align_right{
-    text-align: right;
-    padding-top: 13px;
-}
-.logo_sm{
-    position: relative;
-    top: 10px;
-    left: 6px;
-}
-.btn_left{
-    position: relative;
-    top: 3px;
-    left: 20px;
-}
 .cl_quantity{
     margin-top: -7px;
 }
 .cl_quantity_100{
     margin-top: 7px;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown_content {
+   display: block;
+}
+
 /*****
 Header
 *****/
@@ -219,9 +247,7 @@ Header
     padding-bottom: 1rem;
     padding-top: 0.5rem;
 }
-.go_to:active{
-    color:red;
-}
+
 /********
 Hero page
 ********/
