@@ -600,5 +600,50 @@ footer{
 
 /*Footer*/
 
+/**************************************************
+SUPPORT PAGE
+*************************************************/
+.support_nav{
+    padding-top: 1rem;
+}
 
+.hero_support {
+    height: 600px;
+    background-image: url("https://www.dropboxforum.com/html/assets/bg_community-home-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.search_pos{
+    position: relative;
+}
+.search{
+    display: block;
+    height: 4rem;
+    width: 800px;
+    position: absolute;
+    top: 320px;
+    left:115px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 1rem;
+}
+::placeholder{
+    color: #FB6F88;
+}
+.numbers{
+    padding: 1rem;
+    background-color:#FB6F88 ;
+    height: 86px;
+    width: 100%;
+}
+.align_support{
+    position: relative;
+}
+.buttons{
+    position: absolute;
+    top: 46.5rem;
+}
+.buttons>a{
+    margin-right:2rem;
+}
 
