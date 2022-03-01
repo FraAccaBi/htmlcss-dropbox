@@ -430,6 +430,7 @@ Multitasking page
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
+   /* box-shadow:inset 1rem 1rem #888888;*/
 }
 .asu {
     background-color: #61082B;
@@ -550,10 +551,6 @@ companies page
 }
 .dropdown_content_faq{
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
 }
